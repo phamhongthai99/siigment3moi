@@ -1,0 +1,105 @@
+<div class="container">
+    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="1000">
+                <img src="assets/images/1-5.jpg" class="d-block w-100" alt="..." style="width: 1000px" height="300px">
+            </div>
+            <div class="carousel-item" data-interval="1000">
+                <img src="assets/images/2.jpg" class="d-block w-100" alt="..." style="width: 1000px" height="300px">
+            </div>
+            <div class="carousel-item">
+                <img src="../../assets/images/11.jpg" class="d-block w-100" alt="..." style="width: 1000px" height="300px">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link " [routerLink]="['/trangchu1']">Trang chủ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">giới thiệu </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">hỗ trợ </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">hỏi đáp </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" [routerLink]="['/lab']">khu vực bài tập</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">tài khoản</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" [routerLink]="['/dangky']">đăng ký</a>
+                    <a class="dropdown-item" [routerLink]="['/dangnhap']">đăng nhập</a>
+                    <a class="dropdown-item" [routerLink]="['/qmk']">quên mật khẩu</a>
+                    <a class="dropdown-item" [routerLink]="['/dmk']">đổi mật khẩu</a>
+
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" [routerLink]="['/trangchu1']">đăng xuất</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Giới thiệu Website.
+              </button>
+                </h2>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    Cấu trúc của bài giới thiệu website cơ bản Cho đến thời điểm hiện tại thì không có một quy chuẩn nào về cách viết bài giới thiệu website cả. Tất cả chỉ dựa trên cảm tính và đôi khi cảm tính sẽ làm bạn lầm đường lạc lối. Sau đây là 3 phần cơ bản nhất mà
+                    một bài viết giới thiệu website cần phải có. Và dĩ nhiên là bài giới thiệu website cần được trình bày theo cấu trúc bài viết chuẩn SEO nhé các bạn!
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+               sự ra đời của doanh nghiệp .
+              </button>
+                </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    Điều đầu tiên khách hàng quan tâm khi truy cập vào website là gốc gác của chủ website. Giữa thị trường thật giả lẫn lộn thì người mua luôn cần biết và tìm hiểu kỹ về nơi mà họ sẽ trao niềm tin, gửi hy vọng. Do đó, hãy chủ động cho họ biết bạn là ai và
+                    tóm tắt về sự ra đời của doanh nghiệp để khách hàng nắm bắt được tình hình. Hãy tóm tắt một cách ngắn gọn nhất có thể. Bạn có thể tập trung vào các ý sau: Đề cập đến nhu cầu sử dụng sản phẩm/dịch vụ ==> Website ra đời và giải quyết
+                    nhu cầu đó Đặt vấn đề cần giải quyết ==> Đây là nơi xử lý triệt để Cách viết bài giới thiệu website tốt nhất là viết chân thành
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Sứ mệnh và giá  trị cốt lõi của doanh nghiệp.
+              </button>
+                </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    Có nhất thiết phải đi theo lối mòn? Sự sáng tạo là vô hạn và vấn đề là bạn có đủ can đảm để khai phóng? Một bài giới thiệu website không cần phải đi theo các nguyên tắc cứng nhắc. Hãy đặt mình vào vị trí của người đọc và thử hỏi xem bạn đang cần gì ở
+                    website này. Từ đó bạn có thể tự do trình bày bài giới thiệu website theo nhiều cách và nhiều sự lựa chọn khác nhau. Lấy ví dụ ngay trang web Viết Bài Xuyên Việt luôn nha. Mình không viết bài giới thiệu và đặt thành một mục trên menu
+                    như kiểu truyền thống. Mình trình bày phần giới thiệu website dịch vụ thành dạng hồ sơ năng lực và khi bạn kéo đến đâu thì sẽ nắm bắt được nội dung đến đó. Chỉ có điều là mình thiết kế chưa đẹp lắm thôi hehe. Thử đọc mấy quyển sách
+                    về copywriting sau xem sao: https://vietbaixuyenviet.com/sach-hay-ve-copywriting/
+                </div>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,85 @@
+<nav class="navbar navbar-dark bg-dark">
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link " [routerLink]="['/trangchu1']">Trang chủ</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">giới thiệu </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">hỗ trợ </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">hỏi đáp </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/hcn']" routerLinkActive="router-link-active">lab5</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">tài khoản</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" [routerLink]="['/dangky']">đăng ký</a>
+                <a class="dropdown-item" [routerLink]="['/dangnhap']">đăng nhập</a>
+                <a class="dropdown-item" [routerLink]="['/qmk']">quên mật khẩu</a>
+                <a class="dropdown-item" [routerLink]="['/dmk']">đổi mật khẩu</a>
+
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" [routerLink]="['/trangchu1']">đăng xuất</a>
+            </div>
+        </li>
+    </ul>
+</nav>
+<tbody>
+    <div class="card" style="width: 18rem;">
+        <img src="../../assets/images/images (2).jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text"><button type="button" class="btn btn-outline-light"><img src="../../assets/images/images.jfif"></button>Tên: Gió</p>
+            <p class="card-text"><button type="button" class="btn btn-outline-light"><img src="../../assets/images/images.jfif"></button>Giới tính: Nữ</p>
+            <p class="card-text"><button type="button" class="btn btn-outline-light"><img src="../../assets/images/images.jfif"></button>ngày sinh:0.0.0</p>
+        </div>
+    </div>
+</tbody>
+<h1>bài tập 2</h1>
+<div class="container">
+    <div class="row">
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">img</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Bitthday</th>
+                    <th scope="col">Gemder</th>
+                    <th scope="col">nữ</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+
+                    <td><img src="../../assets/images/images (2).jfif" style="background: 15px;"></td>
+                    <td>nguyên tố lửa</td>
+                    <td>1/01/2019</td>
+                    <td>8</td>
+                    <td>nữ</td>
+                </tr>
+                <tr>
+
+                    <td><img src="../../assets/images/images (2).jfif" style="background: 15px;"></td>
+                    <td>nguyên tố đất</td>
+                    <td>1/01/2019</td>
+                    <td>7</td>
+                    <td>nữ</td>
+                </tr>
+                <tr>
+
+                    <td><img src="../../assets/images/images (2).jfif" style="background: 15px;"></td>
+                    <td>nguyên tố nước</td>
+                    <td>1/01/2019</td>
+                    <td>7</td>
+                    <td>nữ</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+</div>
